@@ -1,0 +1,833 @@
+ @mixin mediaCss ($width){
+    @media screen and (max-width: $width){
+        @content
+    }
+ }
+
+
+ @include mediaCss(1600px){
+    .ownCon {
+        width: 98%;
+        margin: auto;
+    }
+ }
+
+ @include mediaCss(1330px){
+    .flexTabs {
+        width: 95%;
+    }
+ }
+ @include mediaCss(1360px){
+    .ownCon {
+        .mainFlexBox{
+            .serachBox {
+                width: 65%;
+            }
+        }
+    }
+ }
+
+ @include mediaCss(1280px){
+    .padOrow {
+        padding-top: 79px;
+    }
+    .imgBox{
+        img {
+            height: 304px;
+            top: 68px;
+        }
+    }
+    .heroContent{
+        .innertxtOne {
+            text-align: center;
+        }
+        .innertxttwo {
+            text-align: center;
+            font-size: 80px;
+            span.innerColor {
+                text-align: center;
+            }
+        }
+        p {
+            padding: 0 0px 0 0px;
+        }
+        .btnBoxHero {
+            justify-content: center;
+        }
+    }
+ }
+
+ @include mediaCss(1200px){
+    .keepcontentBox{
+        h4{
+            font-size: 40px;
+        }
+        h6{
+            font-size: 45px;
+        }
+        a.btnView {
+            margin: 50px auto;
+        }
+    }
+    .readySec{
+        h5 {
+            font-size: 35px;
+        }
+    }
+    // .shopDeatailspage {
+    //     margin-top: 290px;
+    // }
+ }
+ @include mediaCss(1079px){
+    .flexTabs{
+        .leftAreaBox {
+            width: 30%;
+        }
+        .innerCards{
+            .innerCardsFlex{
+                .prodCarrd {
+                    width: 40%;
+                }
+            }
+        }
+    }
+ }
+ @include mediaCss(992px){
+    .ownCon{
+        .mainFlexBox {
+            padding: 16px 0 0 0;
+            flex-wrap: wrap;
+            .serachBox {
+                width: 75%;
+            }
+            .signupBtnsBox{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                a {
+                    margin: 10px 30px;
+                }
+            }
+        }
+    }
+    .bannerOne {
+        height: 800px;
+    }
+    .imgBox{
+        img {
+            margin: auto;
+            display: block;
+        }
+    }
+    .heroContent{
+        br{ display: none;}
+        .innertxtOne {
+            text-align: center;
+            margin-top: 0%;
+        }
+        .innertxttwo {
+            display: flex;
+            justify-content: center;
+            transform: rotate(-10deg);
+            span.innerColor {
+                margin-left: 30px;
+            }
+        }
+        p{
+            margin-top: 50px;
+        }
+    }
+    .experienceImg {
+        display: none;
+    }
+    .categoriesCol{
+        width: 33.333%;
+    }
+    .activeCategoriesBox {
+        margin-top: 50px;
+    }
+    .scdCategoriesBox{
+        top: unset;
+        img{
+            height: 215px;
+        }
+    }
+    .categoriesBtn {
+        width: 60%;
+    }
+    .keepBg {
+        height: 341px;
+        background-size: cover;
+        background-position: center;
+    }
+    .keepcontentBox{
+        span {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+        }
+        h6{
+            text-align: center;
+        }
+        a.btnView {
+            margin: 0 auto ;
+            border: 1px solid;
+            width: 50%;
+            text-align: center;
+            display: block;
+        }
+    }
+    .polygonShape {
+        top: 364px;
+    }
+    .prodCol{
+        width: 30%;
+        margin: auto;
+        display: block;
+    }
+    .productGrid {
+        margin-top: 20px;
+    }
+    .readySec{
+        h5 {
+            text-align: center;
+            font-size: 35px;
+            margin: 10px 0 10px 0;
+        }
+        p {
+            text-align: center;
+        }
+        a {
+            display: block;
+            margin: 5px auto;
+            text-align: center;
+            width: 70%;
+            border: 1px solid;
+        }
+    }
+    .footerBG {
+        padding: 165px 0 135px 0;
+    }
+    .fotCol{
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }
+    .aboutBg {
+        padding: 60px 0;
+    }
+    .aboutTxtColOne{
+        margin-top: 80px;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .aboutTxt{
+         p {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 40px;
+        }
+    }
+    .aboutTxtCol{
+        width: 50%;
+        padding: 0;
+    }
+    .scdAboutCon {
+        padding-left: 0;
+        padding-top: 35px;
+    }
+    .teamCol{
+        width: 50%;
+        margin: 20px auto;
+    }
+    .workDemonstration {
+        height: 883px;
+    }
+    .workdemoBox{
+        height: auto;
+        margin: 45px 0 0 0;
+        .demoTwo {
+            font-size: 30px;
+            margin-top: 0px;
+        }
+    }
+    .counterLeftBox{
+        .innerCounter {
+            padding: 20px 0;
+        }
+        h4 {
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+    }
+    .videoSec .secVideos {
+        width: 100%;
+        height: auto;
+    }
+    .flexTabs {
+        flex-direction: column;
+        position: relative;
+        margin: 97px auto 0 auto;
+        border-top: 1px solid #adb5bd;
+        padding: 12px 0 0 0;
+        .leftAreaBar{
+            display: block;
+            position: absolute;
+            top: -55px;
+            left: 5px;
+            font-size: 25px;
+        }
+        .leftAreaBox {
+            width: 45%;
+            position: absolute;
+            background: #dee2e6;
+            left: -100%;
+            padding: 21px 34px;
+            transition: all .5s linear;
+            opacity: 0;
+            div{
+                position: relative;
+            }
+        }
+        .innerCards{
+            .innerCardsFlex{
+                .prodCarrd {
+                    width: 47%;
+                }
+            }
+        }
+        .mainWraps{
+            padding-left: 0%;
+        }
+    }
+    .productBreif{
+        h4{
+          margin-top: 30px;
+        }
+      }
+      .bgBefore {
+            display: none;
+      }
+      .tabsUl{
+        width: 100%;
+        margin: 20px auto 0 auto;
+        .shopHead {
+            color: black !important;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 17px;
+        }
+         .resultsBox{
+            .showed {
+                color: black;
+                font-weight: 700;
+                margin-bottom: 47px;
+            }
+         }
+        li{
+            a {
+                color: black;
+                border: 1px solid #adb5bd;
+                padding: 0 15px;
+                border-radius: 10px;
+            }
+        }
+      }
+ }
+
+ @include mediaCss(768px){
+    .headerRow{
+        position: fixed;
+        width: 50%;
+        z-index: 11;
+        top: 0;
+        left: 0;
+    }
+    .iconsBar, .cross{
+        display: block;
+    }
+    .iconsBar{
+    z-index: 0;
+    position: absolute;
+    right: 9px;
+    top: 188px;
+    svg{
+        font-size: 33px;
+        background: gray;
+        padding: 4px 20px;
+    }
+    }
+    .cross{
+    z-index: 999;
+    top: 10px;
+    position: absolute;
+    right: 20px;
+    svg{
+        background: gray;
+        font-size: 24px;
+        padding: 6px 13px;
+    }
+    }
+      .headerMenu.active{
+        transform: translateX(0);
+        transition: 0.1s ease-in;
+    }
+    .headerMenu {
+        display: flex;
+        justify-content: unset;
+        width: 100%;
+        margin: 0;
+        background: #1B1A23;
+        height: 100vh;
+        position: absolute;
+        top: 0px;
+        z-index: 9;
+        flex-direction: column;
+        line-height: 3;
+        transform: translateX(-244%);
+        transition: 1s ease-in;
+        li:nth-child(1){
+            margin: 80px 0 0 0;
+        }
+        li{
+            a {
+                padding: 0 0 0 40px;
+                font-weight: 500;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+    .ownCon{
+        .mainFlexBox{
+            .logoBox{
+                width: 100%;
+                a {
+                    text-align: center;
+                }
+            }
+            .serachBox {
+                width: 100%;
+            }
+        }
+        .signupBtnsBox{
+            a.twoBtn {
+                background: #E5204E;
+                margin-right: 130px;
+            }
+        }
+    }
+    .categoriesCol {
+        width: 100%;
+        margin: auto;
+    }
+    .categoriesHead{
+        h5 {
+            font-size: 22px;
+        }
+        h6 {
+            font-size: 35px;
+        }
+    }
+    .categoriesBtn {
+        width: 80%;
+    }
+    .cardCollectorBox{
+        .innerOne {
+            font-size: 15px;
+        }
+        .innerTwo{
+            font-size: 34px;
+        }
+        .cardSliderBox{
+            .innerCard{
+                height: 345px;
+            }
+        }
+    }
+    .prodCol {
+        width: 44%;
+    }
+    .bgColor{
+        .scdShape {
+            top: -67%;
+        }
+    }
+    .polygonShape {
+        top: 412px;
+        height: 732px;
+    }
+    .flexContainer {
+        flex-direction: column;
+        .productHeadSec{
+            br{display: none;}
+            span {
+                text-align: center;
+            }
+            h5 {
+                font-size: 60px;
+            }
+        }
+    }
+    .fotCol {
+        width: 50%;
+        margin: 10px 0;
+    }
+ }
+
+ @include mediaCss(575px){
+    // .topMargin {
+    //     margin-top: 300px;
+    // }
+    .headerRow {
+        width: 60%;
+    }
+    .iconsBar {
+        top: 325px;
+    }
+    .bannerOne {
+        height: 650px;
+    }
+    .ownCon{
+        .mainFlexBox{
+            .serachBox{
+                .filterBox {
+                    flex-wrap: wrap;
+                    .commonBox {
+                        width: 100%;
+                    }
+                    .stockBox{
+                        margin-top: 10px;
+                    }
+                    .filterBypriceBox{
+                        width: 70%;
+                        margin-top: 12px;
+                    }
+                    .filterBTnBox {
+                        width: 26%;
+                        margin-top: 12px;
+                        .filBtn {
+                            padding: 12px 0;
+                        }
+                    }
+                }
+            }
+            .signupBtnsBox {
+                justify-content: start;
+                a {
+                    margin: 10px 2px;
+                }
+                a.twoBtn {
+                    margin-right: unset;
+                }
+            }
+        }
+    }
+    .heroContent{
+        .innertxtOne {
+            font-size: 45px;
+        }
+        .innertxttwo {
+            font-size: 55px;
+        }
+    }
+    .imgBox{
+        img {
+            height: 200px;
+        }
+    }
+    .bgColor{
+        height: 243px;
+        .scdShape {
+            top: -71%;
+            height: 334px;
+        }
+    }
+    .footerBG {
+        padding: 210px 0 135px 0;
+    }
+    .teamCol {
+        width: 80%;
+    }
+    .teamBox{
+        .picBox{
+            img {
+                height: 400px;
+                width: 100%;
+                object-fit: cover;
+                object-position: top;
+            }
+        }
+    }
+    .counterLeftBox{
+        .innerCounter {
+            h4 {
+                font-size: 30px;
+            }
+            span {
+                font-size: 15px;
+                padding: 2px 8px;
+            }
+        }
+    }
+    .tabsUl {
+        .shopHead {
+            font-size: 30px;
+        }
+        li {
+              line-height: normal;
+              padding: 0 5px;
+              margin: 7px 0 0 0;
+              a {
+            padding: 10px 15px;
+            }
+          }
+    }
+    .flexTabs{
+        margin: 150px auto 0 auto;
+        .leftAreaBox {
+            width: 80%;
+        }
+    }
+    // .shopDeatailspage {
+    //     margin-top: 460px;
+    // }
+    .topRatedSlider{
+        .slick-next {
+            right: 86px;
+        }
+        .slick-prev {
+            left: 75px;
+        }
+        .slick-prev, .slick-next {
+            top: 65%;
+        }
+        .prodCarrd{
+            .buyBtnBox{
+                img{
+                    display: none;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+    }
+ }
+
+ @include mediaCss(480px){
+    .categoriesBtn {
+        font-size: 15px;
+    }
+    .cardCollectorBox{
+        .innerOne {
+            font-size: 10px;
+        }
+        .innerTwo{
+            font-size: 30px;
+        }
+        .cardSliderBox{
+            .innerCard{
+                height: 190px;
+            }
+        }
+    }
+    .keepcontentBox{
+        a.btnView {
+            width: 80%;
+        }
+    }
+    .readySec{
+        h5 {
+            font-size: 25px;
+        }
+    }
+    .fotCol {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .scdUlCopy {
+        flex-wrap: wrap;
+    }
+    .aboutTxt{
+        p {
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+    }
+    .aboutTxtCol {
+        width: 100%;
+        margin: 21px 0;
+    }
+    .aboutBox{
+        h4 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .workdemoBox{
+        .demoOne {
+            font-size: 14px;
+        }
+        .demoTwo {
+            font-size: 19px;
+            line-height: 23px;
+        }
+        .demoBtn {
+            margin-top: 15px;
+        }
+    }
+    .headerRow {
+        width: 70%;
+    }
+    .accountBg{
+        .contacttxt{
+            h5 {
+                font-size: 40px;
+            }
+        }
+    }
+    .tabsUl {
+        justify-content: center;
+        width: 100%;
+        margin: 58px auto 0 auto;
+    }
+    .flexTabs{
+        .innerCards{
+            .innerCardsFlex{
+                .prodCarrd {
+                    width: 95%;
+                }
+            }
+        }
+    }
+    .addToCartBtnBox{
+        button.cartBtn {
+            padding: 20px 60px;
+        }
+    }
+ }
+ @include mediaCss(375px){
+    .prodCol {
+        width: 75%;
+    }
+    .bgColor{
+        height: 200px;
+        .scdShape {
+            top: -62%;
+            height: 251px;
+        }
+    }
+    .flexTabs{
+        .leftAreaBox {
+            width: 100%;
+        }
+    }
+    .headerRow {
+        width: 90%;
+    }
+    .flexBox2{
+        .sizeBox{
+            .radio__button{
+                label {
+                    padding: 3px 0;
+                    height: 2em;
+                    width: 2em;
+                }
+            }
+        }
+        .colorBox{
+            .radio__button{
+                label {
+                    height: 2em;
+                    width: 2em;
+                }
+            }
+        }
+    }
+    .productDetails{
+        .productHead {
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        p.productDes {
+            font-size: 13px;
+        }
+    }
+    .topRatedSlider{
+        .slick-next {
+            right: 40px;
+        }
+        .slick-prev {
+            left: 40px;
+        }
+        .slick-prev:before, .slick-next:before{
+            font-size: 20px;
+        }
+        .prodCarrd{
+            .desProd{
+                h4 {
+                    font-size: 13px;
+                    letter-spacing: 0px;
+                }
+                .itemsAcc {
+                    letter-spacing: 0px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .prodCarrd{
+            .buyBtnBox{
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+ }
+
+ @include mediaCss(281px){
+    .tabsUl{
+        .shopHead {
+            font-size: 22px;
+        }
+        li {
+            line-height: 30px;
+            padding: 0 17px;
+            margin: 10px 0 0 0;
+        }
+    }
+    .ownCon{
+        .mainFlexBox{
+            .signupBtnsBox{
+                a {
+                    padding: 7px 15px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .topRatedSlider{
+        .slick-prev,.slick-next{
+            top: 62%;
+        }
+        .prodCarrd{
+            .img-box{
+                img {
+                    height: 177px;
+                }
+            }
+            .desProd{
+                .parah {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+ }

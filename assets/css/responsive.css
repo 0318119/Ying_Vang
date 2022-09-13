@@ -1,0 +1,664 @@
+@media screen and (max-width: 1600px) {
+  .ownCon {
+    width: 98%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .flexTabs {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .ownCon .mainFlexBox .serachBox {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .padOrow {
+    padding-top: 79px;
+  }
+  .imgBox img {
+    height: 304px;
+    top: 68px;
+  }
+  .heroContent .innertxtOne {
+    text-align: center;
+  }
+  .heroContent .innertxttwo {
+    text-align: center;
+    font-size: 80px;
+  }
+  .heroContent .innertxttwo span.innerColor {
+    text-align: center;
+  }
+  .heroContent p {
+    padding: 0 0px 0 0px;
+  }
+  .heroContent .btnBoxHero {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .keepcontentBox h4 {
+    font-size: 40px;
+  }
+  .keepcontentBox h6 {
+    font-size: 45px;
+  }
+  .keepcontentBox a.btnView {
+    margin: 50px auto;
+  }
+  .readySec h5 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .flexTabs .leftAreaBox {
+    width: 30%;
+  }
+  .flexTabs .innerCards .innerCardsFlex .prodCarrd {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ownCon .mainFlexBox {
+    padding: 16px 0 0 0;
+    flex-wrap: wrap;
+  }
+  .ownCon .mainFlexBox .serachBox {
+    width: 75%;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox a {
+    margin: 10px 30px;
+  }
+  .bannerOne {
+    height: 800px;
+  }
+  .imgBox img {
+    margin: auto;
+    display: block;
+  }
+  .heroContent br {
+    display: none;
+  }
+  .heroContent .innertxtOne {
+    text-align: center;
+    margin-top: 0%;
+  }
+  .heroContent .innertxttwo {
+    display: flex;
+    justify-content: center;
+    transform: rotate(-10deg);
+  }
+  .heroContent .innertxttwo span.innerColor {
+    margin-left: 30px;
+  }
+  .heroContent p {
+    margin-top: 50px;
+  }
+  .experienceImg {
+    display: none;
+  }
+  .categoriesCol {
+    width: 33.333%;
+  }
+  .activeCategoriesBox {
+    margin-top: 50px;
+  }
+  .scdCategoriesBox {
+    top: unset;
+  }
+  .scdCategoriesBox img {
+    height: 215px;
+  }
+  .categoriesBtn {
+    width: 60%;
+  }
+  .keepBg {
+    height: 341px;
+    background-size: cover;
+    background-position: center;
+  }
+  .keepcontentBox span {
+    text-align: center;
+  }
+  .keepcontentBox h4 {
+    text-align: center;
+  }
+  .keepcontentBox h6 {
+    text-align: center;
+  }
+  .keepcontentBox a.btnView {
+    margin: 0 auto;
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    display: block;
+  }
+  .polygonShape {
+    top: 364px;
+  }
+  .prodCol {
+    width: 30%;
+    margin: auto;
+    display: block;
+  }
+  .productGrid {
+    margin-top: 20px;
+  }
+  .readySec h5 {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0 10px 0;
+  }
+  .readySec p {
+    text-align: center;
+  }
+  .readySec a {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    width: 70%;
+    border: 1px solid;
+  }
+  .footerBG {
+    padding: 165px 0 135px 0;
+  }
+  .fotCol {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+  }
+  .aboutBg {
+    padding: 60px 0;
+  }
+  .aboutTxtColOne {
+    margin-top: 80px;
+    width: 100%;
+    padding-left: 30px;
+  }
+  .aboutTxt p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .aboutTxtCol {
+    width: 50%;
+    padding: 0;
+  }
+  .scdAboutCon {
+    padding-left: 0;
+    padding-top: 35px;
+  }
+  .teamCol {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .workDemonstration {
+    height: 883px;
+  }
+  .workdemoBox {
+    height: auto;
+    margin: 45px 0 0 0;
+  }
+  .workdemoBox .demoTwo {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .counterLeftBox .innerCounter {
+    padding: 20px 0;
+  }
+  .counterLeftBox h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .videoSec .secVideos {
+    width: 100%;
+    height: auto;
+  }
+  .flexTabs {
+    flex-direction: column;
+    position: relative;
+    margin: 97px auto 0 auto;
+    border-top: 1px solid #adb5bd;
+    padding: 12px 0 0 0;
+  }
+  .flexTabs .leftAreaBar {
+    display: block;
+    position: absolute;
+    top: -55px;
+    left: 5px;
+    font-size: 25px;
+  }
+  .flexTabs .leftAreaBox {
+    width: 45%;
+    position: absolute;
+    background: #dee2e6;
+    left: -100%;
+    padding: 21px 34px;
+    transition: all 0.5s linear;
+    opacity: 0;
+  }
+  .flexTabs .leftAreaBox div {
+    position: relative;
+  }
+  .flexTabs .innerCards .innerCardsFlex .prodCarrd {
+    width: 47%;
+  }
+  .flexTabs .mainWraps {
+    padding-left: 0%;
+  }
+  .productBreif h4 {
+    margin-top: 30px;
+  }
+  .bgBefore {
+    display: none;
+  }
+  .tabsUl {
+    width: 100%;
+    margin: 20px auto 0 auto;
+  }
+  .tabsUl .shopHead {
+    color: black !important;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 17px;
+  }
+  .tabsUl .resultsBox .showed {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 47px;
+  }
+  .tabsUl li a {
+    color: black;
+    border: 1px solid #adb5bd;
+    padding: 0 15px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .headerRow {
+    position: fixed;
+    width: 50%;
+    z-index: 11;
+    top: 0;
+    left: 0;
+  }
+  .iconsBar, .cross {
+    display: block;
+  }
+  .iconsBar {
+    z-index: 0;
+    position: absolute;
+    right: 9px;
+    top: 188px;
+  }
+  .iconsBar svg {
+    font-size: 33px;
+    background: gray;
+    padding: 4px 20px;
+  }
+  .cross {
+    z-index: 999;
+    top: 10px;
+    position: absolute;
+    right: 20px;
+  }
+  .cross svg {
+    background: gray;
+    font-size: 24px;
+    padding: 6px 13px;
+  }
+  .headerMenu.active {
+    transform: translateX(0);
+    transition: 0.1s ease-in;
+  }
+  .headerMenu {
+    display: flex;
+    justify-content: unset;
+    width: 100%;
+    margin: 0;
+    background: #1B1A23;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 9;
+    flex-direction: column;
+    line-height: 3;
+    transform: translateX(-244%);
+    transition: 1s ease-in;
+  }
+  .headerMenu li:nth-child(1) {
+    margin: 80px 0 0 0;
+  }
+  .headerMenu li a {
+    padding: 0 0 0 40px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  .ownCon .mainFlexBox .logoBox {
+    width: 100%;
+  }
+  .ownCon .mainFlexBox .logoBox a {
+    text-align: center;
+  }
+  .ownCon .mainFlexBox .serachBox {
+    width: 100%;
+  }
+  .ownCon .signupBtnsBox a.twoBtn {
+    background: #E5204E;
+    margin-right: 130px;
+  }
+  .categoriesCol {
+    width: 100%;
+    margin: auto;
+  }
+  .categoriesHead h5 {
+    font-size: 22px;
+  }
+  .categoriesHead h6 {
+    font-size: 35px;
+  }
+  .categoriesBtn {
+    width: 80%;
+  }
+  .cardCollectorBox .innerOne {
+    font-size: 15px;
+  }
+  .cardCollectorBox .innerTwo {
+    font-size: 34px;
+  }
+  .cardCollectorBox .cardSliderBox .innerCard {
+    height: 345px;
+  }
+  .prodCol {
+    width: 44%;
+  }
+  .bgColor .scdShape {
+    top: -67%;
+  }
+  .polygonShape {
+    top: 412px;
+    height: 732px;
+  }
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexContainer .productHeadSec br {
+    display: none;
+  }
+  .flexContainer .productHeadSec span {
+    text-align: center;
+  }
+  .flexContainer .productHeadSec h5 {
+    font-size: 60px;
+  }
+  .fotCol {
+    width: 50%;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .headerRow {
+    width: 60%;
+  }
+  .iconsBar {
+    top: 325px;
+  }
+  .bannerOne {
+    height: 650px;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox {
+    flex-wrap: wrap;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox .commonBox {
+    width: 100%;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox .stockBox {
+    margin-top: 10px;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox .filterBypriceBox {
+    width: 70%;
+    margin-top: 12px;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox .filterBTnBox {
+    width: 26%;
+    margin-top: 12px;
+  }
+  .ownCon .mainFlexBox .serachBox .filterBox .filterBTnBox .filBtn {
+    padding: 12px 0;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox {
+    justify-content: start;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox a {
+    margin: 10px 2px;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox a.twoBtn {
+    margin-right: unset;
+  }
+  .heroContent .innertxtOne {
+    font-size: 45px;
+  }
+  .heroContent .innertxttwo {
+    font-size: 55px;
+  }
+  .imgBox img {
+    height: 200px;
+  }
+  .bgColor {
+    height: 243px;
+  }
+  .bgColor .scdShape {
+    top: -71%;
+    height: 334px;
+  }
+  .footerBG {
+    padding: 210px 0 135px 0;
+  }
+  .teamCol {
+    width: 80%;
+  }
+  .teamBox .picBox img {
+    height: 400px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .counterLeftBox .innerCounter h4 {
+    font-size: 30px;
+  }
+  .counterLeftBox .innerCounter span {
+    font-size: 15px;
+    padding: 2px 8px;
+  }
+  .tabsUl .shopHead {
+    font-size: 30px;
+  }
+  .tabsUl li {
+    line-height: normal;
+    padding: 0 5px;
+    margin: 7px 0 0 0;
+  }
+  .tabsUl li a {
+    padding: 10px 15px;
+  }
+  .flexTabs {
+    margin: 150px auto 0 auto;
+  }
+  .flexTabs .leftAreaBox {
+    width: 80%;
+  }
+  .topRatedSlider .slick-next {
+    right: 86px;
+  }
+  .topRatedSlider .slick-prev {
+    left: 75px;
+  }
+  .topRatedSlider .slick-prev, .topRatedSlider .slick-next {
+    top: 65%;
+  }
+  .topRatedSlider .prodCarrd .buyBtnBox img {
+    display: none;
+  }
+  .topRatedSlider .prodCarrd .buyBtnBox svg {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .categoriesBtn {
+    font-size: 15px;
+  }
+  .cardCollectorBox .innerOne {
+    font-size: 10px;
+  }
+  .cardCollectorBox .innerTwo {
+    font-size: 30px;
+  }
+  .cardCollectorBox .cardSliderBox .innerCard {
+    height: 190px;
+  }
+  .keepcontentBox a.btnView {
+    width: 80%;
+  }
+  .readySec h5 {
+    font-size: 25px;
+  }
+  .fotCol {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .scdUlCopy {
+    flex-wrap: wrap;
+  }
+  .aboutTxt p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .aboutTxtCol {
+    width: 100%;
+    margin: 21px 0;
+  }
+  .aboutBox h4 {
+    font-size: 15px;
+  }
+  .aboutBox p {
+    font-size: 14px;
+  }
+  .workdemoBox .demoOne {
+    font-size: 14px;
+  }
+  .workdemoBox .demoTwo {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .workdemoBox .demoBtn {
+    margin-top: 15px;
+  }
+  .headerRow {
+    width: 70%;
+  }
+  .accountBg .contacttxt h5 {
+    font-size: 40px;
+  }
+  .tabsUl {
+    justify-content: center;
+    width: 100%;
+    margin: 58px auto 0 auto;
+  }
+  .flexTabs .innerCards .innerCardsFlex .prodCarrd {
+    width: 95%;
+  }
+  .addToCartBtnBox button.cartBtn {
+    padding: 20px 60px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .prodCol {
+    width: 75%;
+  }
+  .bgColor {
+    height: 200px;
+  }
+  .bgColor .scdShape {
+    top: -62%;
+    height: 251px;
+  }
+  .flexTabs .leftAreaBox {
+    width: 100%;
+  }
+  .headerRow {
+    width: 90%;
+  }
+  .flexBox2 .sizeBox .radio__button label {
+    padding: 3px 0;
+    height: 2em;
+    width: 2em;
+  }
+  .flexBox2 .colorBox .radio__button label {
+    height: 2em;
+    width: 2em;
+  }
+  .productDetails .productHead {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .productDetails p.productDes {
+    font-size: 13px;
+  }
+  .topRatedSlider .slick-next {
+    right: 40px;
+  }
+  .topRatedSlider .slick-prev {
+    left: 40px;
+  }
+  .topRatedSlider .slick-prev:before, .topRatedSlider .slick-next:before {
+    font-size: 20px;
+  }
+  .topRatedSlider .prodCarrd .desProd h4 {
+    font-size: 13px;
+    letter-spacing: 0px;
+  }
+  .topRatedSlider .prodCarrd .desProd .itemsAcc {
+    letter-spacing: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .topRatedSlider .prodCarrd .buyBtnBox a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 281px) {
+  .tabsUl .shopHead {
+    font-size: 22px;
+  }
+  .tabsUl li {
+    line-height: 30px;
+    padding: 0 17px;
+    margin: 10px 0 0 0;
+  }
+  .ownCon .mainFlexBox .signupBtnsBox a {
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+  .topRatedSlider .slick-prev, .topRatedSlider .slick-next {
+    top: 62%;
+  }
+  .topRatedSlider .prodCarrd .img-box img {
+    height: 177px;
+  }
+  .topRatedSlider .prodCarrd .desProd .parah {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
